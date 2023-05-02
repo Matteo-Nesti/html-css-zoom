@@ -60,8 +60,8 @@ span {
 /* main */
 
 main {
-    max-height: calc(100vh - 90px);
-    overflow: auto;
+    height: calc(100vh - 180px);
+    overflow-y: auto;
 }
 
 /* cards */
@@ -79,9 +79,16 @@ main {
 }
 
 .nick-name {
+    color: #fff;
     position: absolute;
     left: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .5);
     padding: 5px 5px;
+}
+
+/* footer */
+
+footer {
+    height: 90px;
 }
