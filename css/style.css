@@ -52,7 +52,8 @@ span {
     margin-left: 5px;
 }
 
-.option>span {
+.option>span:hover {
+    background-color: rgb(158, 158, 158);
     cursor: pointer;
 }
 
@@ -128,10 +129,22 @@ footer {
     top: 0;
 }
 
+.end-meeting:hover {
+    color: rgb(255, 126, 126);
+    background-color: #7c7c7c;
+    cursor: pointer;
+}
+
 .icon-input {
     font-size: 25px;
     margin: 5px 20px;
 }
+
+.icon-input:hover{
+    color: rgb(175, 255, 83);
+    cursor: pointer;
+}
+
 .input-choose {
     font-size: 10px;
     margin: 0 20px
