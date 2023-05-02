@@ -28,7 +28,7 @@ span {
 }
 
 .container {
-    width: 1600px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -87,8 +87,52 @@ main {
     padding: 5px 5px;
 }
 
+.nick-name:hover {
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+}
 /* footer */
 
 footer {
+    background-color: #222222;
     height: 90px;
+}
+
+.footer-settings {
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.personal-input {
+    display: flex;
+    align-items: center;
+}
+
+.interaction {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.end-meeting  {
+    color: red;
+    background-color: #4a4a4a;
+    padding: 25px 25px;
+    font-size: 10px;
+    font-weight: normal;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon-input {
+    font-size: 25px;
+    margin: 5px 20px;
+}
+.input-choose {
+    font-size: 10px;
+    margin: 0 20px
 }
