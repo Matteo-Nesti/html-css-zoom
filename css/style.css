@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* generics */
+
+body{
+    background-color: #000;
+    font-family: sans-serif;
+}
+
+header {
+    height: 90px;
+    padding: 5px;
+}
+
+span {
+    color: #fff;
+}
+
+/* header */
+
+.option {
+    display: flex;
+    justify-content: end;
+}
+
+.option>span {
+    background-color: rgb(78, 78, 78);
+    padding: 3px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.option>span {
+    cursor: pointer;
+}
