@@ -20,6 +20,24 @@ span {
     color: #fff;
 }
 
+/* utility */
+
+.debug {
+    border: 2px dashed white;
+    color: #fff;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 /* header */
 
 .option {
@@ -36,4 +54,34 @@ span {
 
 .option>span {
     cursor: pointer;
+}
+
+
+/* main */
+
+main {
+    max-height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+/* cards */
+
+.card {
+    width: calc(100% / 7 - 10px);
+    margin: 10px 5px;
+    position: relative;
+}
+
+.card>img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.nick-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 5px 5px;
 }
